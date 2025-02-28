@@ -1,6 +1,6 @@
 # Module simple-module 
 
-The function of this module is to provide a determination of wether a person was detected in a given camera. If a person was detected the module will return 1 other wise it will return 0 in the attribute person_detected 
+The function of this module is to provide a determination of wether a person was detected in a given camera. If a person was detected the module will return 1 otherwise it will return 0 in the person_detected attribute 
 
 ## Model jadorg:simple-module:simple-detection
 
