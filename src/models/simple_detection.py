@@ -1,4 +1,4 @@
-from typing import (Any, ClassVar, Dict, Final, List, Mapping, Optional,
+from typing import (Any, ClassVar, Dict, List, Mapping, Optional,
                     Sequence)
 
 from typing_extensions import Self
@@ -12,7 +12,7 @@ from viam.resource.types import Model, ModelFamily
 from viam.utils import SensorReading, ValueTypes
 
 #list of imports added for the sensor componeent Work in progress
-from typing import ClassVar, Mapping, Sequence, Any, Dict, Optional, Tuple, Final, List, cast
+from typing import ClassVar, Mapping, Sequence, Any, Dict, Optional, List, cast
 from viam.components.sensor import *
 from viam.utils import SensorReading
 from viam.services.vision import *
@@ -21,7 +21,6 @@ from viam.services.vision import *
 from viam.components.camera import *
 
 # Added to connect directly
-from viam.robot.client import RobotClient
 
 
 class SimpleDetection(Sensor, EasyResource):
