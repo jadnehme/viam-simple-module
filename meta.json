@@ -1,0 +1,17 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "jadorg:simple-module",
+  "visibility": "private",
+  "url": "https://github.com/jadnehme/viam-jadorg/tree/main/simple-module",
+  "description": "Modular sensor component: simple-detection",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "jadorg:simple-module:simple-detection",
+      "short_description": "Simple sensor that uses a any vision person detector to return if a person_detected 1 and 0 otherwise",
+      "markdown_link": "README.md#model-jadorgsimple-modulesimple-detection"
+    }
+  ],
+  "entrypoint": "./run.sh",
+  "first_run": ""
+}
