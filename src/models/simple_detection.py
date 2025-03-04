@@ -66,7 +66,7 @@ class SimpleDetection(Sensor, EasyResource):
         """
         fields = config.attributes.fields
 
-        if not fields[SimpleDetection.CAMERA_ATTRIBUTE].HasField("string_value"):
+        if not SimpleDetection.CAMERA_ATTRIBUTE in fields:
             raise Exception("Missing camera attribute.")
         elif not fields[SimpleDetection.CAMERA_ATTRIBUTE].HasField("string_value"):
             raise Exception("camera attribute must be a string.")
